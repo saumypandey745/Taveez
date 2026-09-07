@@ -1,0 +1,17 @@
+{
+  "name": "Taveez — Physical Lucky Charm & Daily Ritual",
+  "short_name": "Taveez",
+  "description": "A tactile lucky charm hanging from a brass rail at the top of your browser with real pendulum physics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12100e",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧿</text></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
