@@ -1,11 +1,21 @@
 {
   "manifest_version": 3,
   "name": "Taveez — Physical Lucky Charm Overlay",
-  "version": "1.0.0",
-  "description": "A lucky charm that hangs at the top of your browser across every webpage.",
+  "version": "1.1.0",
+  "description": "A lucky charm that hangs at the top of your browser across every webpage. Real pendulum physics, ritual chimes.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Taveez Lucky Charm"
+    "default_title": "Taveez Lucky Charm",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
   },
   "content_scripts": [
     {
