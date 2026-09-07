@@ -2,9 +2,10 @@
   "manifest_version": 3,
   "name": "Taveez — Physical Lucky Charm Overlay",
   "version": "1.0.0",
-  "description": "A lucky charm that hangs from a brass rail at the top of your browser across every webpage.",
-  "icons": {
-    "128": "icon.png"
+  "description": "A lucky charm that hangs at the top of your browser across every webpage.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Taveez Lucky Charm"
   },
   "content_scripts": [
     {
